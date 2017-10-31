@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Sign up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+  <script src="./resources/jquery/jquery-3.2.1.min.js"></script>
+  <script src="./resources/js/bootstrap.min.js"></script>
+</head>
+<body>
+<jsp:include page="header.jsp"/>
+
+<div class="container">
+  <h2>SIGN UP PLEASE</h2>
+  <form class="form-horizontal" action="/action_page.php">
+   <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name:</label>
+      <div class="col-sm-8">
+        <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+    </div>
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">DOB:</label>
+      <div class="col-sm-8">
+        <input type="number" class="form-control" id="num" placeholder="Enter DOB" name="num">
+      </div>
+      </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="addr">Address:</label>
+      <div class="col-sm-8">
+        <input type="address" class="form-control" id="addr" placeholder="Enter address" name="addr">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="text">Gender:</label>
+      <div class="col-sm-8">
+
+        <input type="text" class="form-control" id="text" placeholder="Enter gender" name="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">New Password:</label>
+      <div class="col-sm-8">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter new password" name="pwd">
+      </div>
+      </div>
+       <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Confirm Password:</label>
+      <div class="col-sm-8">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter confirm password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-5">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>
+</head>
+
+<jsp:include page="footer.jsp"/>
+<body>
+</html>
